@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/edff3a1ad3.js" crossorigin="anonymous"></script>
+<script src="main2.js" defer></script>
+<title>Weather App</title>
+</head>
+<body>
+
+    <div class="container">
+        <form name= "weatherSearch" id="zipForm">
+            <br>
+            <label for="zipCode"></label>
+            <input type="text" name="zipCode" id="zipInput" placeholder="enter zipcode">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span id="textSpan" class="form-text">
+                Must be a USA zipcode.
+            </span>
+            <br>
+            <button type="submit" class="btn btn-outline-success">Submit</button>
+        </form>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<!-- <form name= "weatherSearch" id="cityForm">
+    <label for="cityName">Search by City: </label>
+    <input type="text" name="cityName" id="cityInput" placeholder="city here">
+    <br>
+    <br>
+    <button id ="submitButton" type="submit" class="btn btn-primary btn-lg">Whats the weather like?</button>
+</form> -->

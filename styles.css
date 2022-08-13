@@ -1,0 +1,43 @@
+body{
+    background:url('https://media.istockphoto.com/photos/weather-forecast-concept-picture-id531889697?b=1&k=20&m=531889697&s=170667a&w=0&h=imZl8VcPhgj-6jTFFkYGbVTFOTyQ-u93Z9WsyhMdqps=');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    color:rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+    padding: 100px 100px;
+}
+
+#textSpan {
+    color: black;
+}
+
+#zipInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: #3e983ed0;
+    color: white;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+
+
+
+
+
