@@ -5,14 +5,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-/* body {
-    background:
-    background-repeat: no-repeat;
-    background-size:cover;
-    overflow:hidden;
-    height: 100vh;
-} */
-
 body {
     min-height: 100vh;
     width: 100%;
@@ -21,16 +13,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
-    color: #fff;
     padding: 0 8%;
-
 }
-
-/* https://i.pinimg.com/originals/57/1e/e3/571ee3df45be42b27cb8a45a5246d1a1.gif */
-/* https://i.pinimg.com/originals/96/df/d4/96dfd411ab0e68f8bc1eb47e4eee8771.gif */
-/* https://i.pinimg.com/originals/a9/37/d4/a937d47b0d3d47df7a4faf34f3ee61f3.gif */
-/* https://i.pinimg.com/originals/29/cb/d5/29cbd5c73bac071fb7ade09bcac4feb8.gif */
-/* https://media.istockphoto.com/photos/weather-forecast-concept-picture-id531889697?b=1&k=20&m=531889697&s=170667a&w=0&h=imZl8VcPhgj-6jTFFkYGbVTFOTyQ-u93Z9WsyhMdqps= */
 
 .container {
     display: flex;
@@ -46,6 +30,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 8px 8px 8px 8px;
+    border-bottom: yellow;
+    border-top: yellow;
+    background-color: rgba(250, 246, 128, 0.3);
+    color: #000;
+}
+
+#button {
+    border-radius: 8px 8px 8px 8px;
+    border-bottom: yellow;
+    border-top: yellow;
 }
 
 .card {

@@ -13,22 +13,14 @@ const weatherApi = async (zipCode)=>{
     return data
 };
 
-
 const loadData = async (zipCode)=>{
     const data = await weatherApi(zipCode)
     const zipWeather = [data]
     zipWeather.map(getDataWeather)
 };
 
-
 const getDataWeather = async (zipWeather) => {
     const card = document.createElement('div')
-    // card.innerHTML = myWeather.main.temp
-    // card.innerHTML = myWeather.main.temp_max
-    // card.innerHTML = myWeather.main.temp_min
-    // card.innerHTML = myWeather.main.humidity
-    // card.innerHTML = myWeather.weather[0].main
-    // card.innerHTML = myWeather.main.humidity
     card.innerHTML = 
     `
     <main class="card">
